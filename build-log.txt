@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?><Error><Code>SignatureDoesNotMatch</Code><Message>Access denied.</Message><Details>The request signature we calculated does not match the signature you provided. Check your Google secret key and signing method.</Details><StringToSign>GOOG4-RSA-SHA256
+20260502T065202Z
+20260502/auto/storage/goog4_request
+b36fd3a99a301c5ac1a252195c1b2ce0afb3c82057ceb10a6a4d2c941d5f7f70</StringToSign><CanonicalRequest>GET
+/production/993fec10-7c41-4f2d-a35f-c88ff1bfff5.txt
+X-Goog-Algorithm=GOOG4-RSA-SHA256&amp;X-Goog-Credential=www-production%40exponentjs.iam.gserviceaccount.com%2F20260502%2Fauto%2Fstorage%2Fgoog4_request&amp;X-Goog-Date=20260502T065202Z&amp;X-Goog-Expires=900&amp;X-Goog-SignedHeaders=host
+host:turtle-v2-logs.storage.googleapis.com
+
+host
+UNSIGNED-PAYLOAD</CanonicalRequest></Error>
